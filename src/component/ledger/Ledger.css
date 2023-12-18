@@ -1,0 +1,197 @@
+
+.ledgerCategoryBox{
+    display: flex;
+    justify-content: space-around;
+    height : 35px;
+    align-items: center;
+    border-bottom : 1px solid #F9C041;
+}
+
+.choiceLedger{
+    color : #F9C041;
+    font-weight : bold;
+}
+
+.ledgeContainer{
+    height : 445px;
+    overflow : scroll;
+    position : relative;
+}
+
+.dateLedgeContainer::-webkit-scrollbar {display:none;}
+
+.dateLedgeContent{
+    display : flex;
+    flex-direction: column;
+    padding-top : 10px;
+    border-bottom : 1px solid #eeeeee;
+}
+
+.dateLedgeTr{
+    display : flex;
+    justify-content: space-between;
+    font-size : 13px;
+}
+
+h3{
+    margin : 0px;
+    padding-top : 10px;
+}
+
+.weekLedgerTable{
+    display : flex;
+    flex-direction: column;
+    padding-top : 10px;
+}
+
+.weekLedgerTr{
+    display : flex;
+    justify-content: space-between;
+    font-size : 10px;
+    background-color: #eeeeee;
+    border-bottom : 1px solid #e6e6e6;
+    height : 35px;
+    align-items : center;
+}
+
+.monthLedgeTable{
+    display : flex;
+    flex-direction: column;
+    padding-top : 10px;
+}
+
+.monthLedgeTr{
+    display : flex;
+    justify-content: space-between;
+    font-size : 13px;
+    background-color: #eeeeee;
+    border-bottom : 1px solid #e6e6e6;
+    height : 35px;
+    align-items : center;
+}
+
+.monthTd{
+    font-size : 18px !important;
+    font-weight : bold;
+}
+
+.registrationButton{
+    background-color: #F9C041;
+    font-size: 30px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 450px;
+    bottom: 300px;
+}
+
+.onRegistration{
+    width : 100%;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color : white;
+    background-color : #F9C041;
+    border-style : none;
+    border-radius : 5px;
+
+}
+
+.ledgeModalArea{
+    width : 275px;
+    z-index : 1;
+    background-color : white;
+    border-radius : 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    position : fixed;
+    bottom : 260px;
+}
+
+.ledgeModalTable{
+    display: flex;
+    flex-direction: column;
+    padding-bottom : 10px;
+}
+
+.ledgeModalTr{
+    font-size : 13px;
+    font-size: 13px;
+    padding: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ledgeModalTop{
+    width : 100%;
+    display : flex;
+    padding : 10px 0px 10px 0px;
+}
+
+.modalTopTitle{
+    width : 65%;
+    display : flex;
+    justify-content : flex-end;
+}
+
+.modalCancle{
+    width : 35%;
+    display : flex;
+    justify-content : flex-end;
+    padding-right : 10px;
+}
+
+.detailLedge , .moneyLedge{
+    border-style : none;
+    border-bottom : 1px solid #F9C041;
+    padding : 0px 0px 2px 3px;
+}
+
+.dateSelect , .bigSelect , .smallSelect{
+    border-style : none;
+    border-bottom : 1px solid #F9C041;
+}
+
+.onRegistrationBox{
+    display : flex;
+}
+
+.updateLedger{
+    width : 50%;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color : white;
+    background-color : #F9C041;
+    border-style : none;
+    border-radius : 5px;
+}
+
+.deleteLedger{
+    width : 50%;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color : #eeeeee;
+    border-style : none;
+    border-radius : 5px;
+}
+
+.memoArea{
+    padding-top : 10px;
+}
+
+.memoBox{
+    font-size : 10px;
+    padding : 5px 20px 10px 10px;
+    border-bottom : 1px solid #eeeeee;
+}
+
+.memoInput{
+    width : 100%;
+    border-style : none;
+    border-bottom : 1px solid #F9C041;
+    padding : 0px 0px 2px 0px;
+}

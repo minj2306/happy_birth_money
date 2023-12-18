@@ -1,0 +1,50 @@
+.searchContainer{
+    height : 445px;
+    overflow : scroll;
+    width : 100%;
+}
+
+.searchArea{
+    display : flex;
+    justify-content : center;
+    padding-top : 10px;
+}
+
+.searchImg{
+    width : 25px;
+    padding-right : 10px;
+}
+
+.searchInput{
+    width : 180px;
+    margin-right : 10px;
+}
+
+.searchTable{
+    display : flex;
+    flex-direction: column;
+    padding-top : 10px;
+}
+
+.searchTr{
+    display : flex;
+    justify-content: space-between;
+    font-size : 13px;
+    background-color: #eeeeee;
+    border-bottom : 1px solid #e6e6e6;
+    height : 35px;
+    align-items : center;
+}
+
+.searchKeyword{
+    color : #F9C041;
+    font-weight : bold;
+}
+
+.searchTopContent{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size : 10px;
+}

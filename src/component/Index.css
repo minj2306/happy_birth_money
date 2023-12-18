@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'MICEGothic Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.webContainer{
+    width : 7.57cm;
+    height : 15.9cm;
+    border : 1px solid #F9C041;
+    margin : 0 auto;
+}
+
+.headerContainer{
+    width : 100%;
+    border-bottom : 1px solid #F9C041;
+    margin : 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footerCategory{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 53px;
+    align-items: center;
+    background-color: #F9C041;
+    color: white;
+    font-weight: bold;
+    position : relative;
+}
+
+.componentArea{
+    height : 80%;
+}
+
+.yellowLogo{
+    width : 63px;
+    margin : 5px;
+}
+
+.ledgerPosition{
+    width : 25px;
+    position: absolute;
+    bottom: 17px;
+    left: 62px;
+}
+
+.statsPosition{
+    width : 25px;
+    position: absolute;
+    bottom: 17px;
+    left: 154px;
+}
+
+.searchPosition{
+    width : 25px;
+    position: absolute;
+    bottom: 17px;
+    left : 245px;
+}
+
+.logo{
+    width : 25px;
+    opacity : 0.7;
+}
